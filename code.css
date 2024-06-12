@@ -1,0 +1,108 @@
+body {
+    Background-color: rgb(215, 218, 221);
+}
+
+.topview {
+    height: 200px;
+    background-image: url(back.JPG);
+    color: rgb(32, 203, 43);
+    object-position: center;
+    border-bottom: -3px;
+    background-color: grey;
+    text-shadow: whitesmoke;
+    text-shadow: 20px
+}
+
+.body {
+    Background-color: #82add8;
+    ;
+    height: 1000px;
+    border-top: 0;
+}
+
+
+
+.view {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 65vh;
+    background: inherit;
+    font-size: 15px;
+    font-family: arial;
+    font-weight: 700;
+}
+
+.input label {
+    flex-basis: 25%;
+
+}
+
+.checkbox {
+    flex-basis: 50%;
+    color: blue;
+    border-bottom: 10px transparent;
+
+}
+
+
+.sidebar {
+    height: 100%;
+    width: 55px;
+    position: fixed;
+    top: 180;
+    left: 0;
+    bottom: 0;
+    background-color: ghostwhite;
+    display: grid;
+    font-size: 18px;
+    color: hsl(0, 14%, 86%);
+    position: fixed;
+}
+
+.sidebar a:hover {
+    color: rgb(68, 228, 47)
+}
+
+.topbar {
+    background-color: aquamarine;
+    top: 0;
+    right: 0;
+    height: 170px;
+    left: 0;
+    position: fixed;
+    display: inline-flex;
+    background-image: url(bendera.png);
+    font-size: 25;
+    font-weight: 700;
+    font-family: Arial;
+    color: rgb(19, 24, 159);
+}
+
+.sidebar a {
+    border: none;
+}
+
+.content {
+    background: #82add8;
+    height: 100%;
+    right: 0;
+    left: 54;
+    top: 170;
+    position: absolute;
+    display: grid;
+    color: rgb(8, 38, 84);
+
+
+}
+
+
+.galley img:hover {
+    filter: grayscale(0%);
+    transform: scale(1.1);
+    cursor: pointer;
+
+
+
+}
